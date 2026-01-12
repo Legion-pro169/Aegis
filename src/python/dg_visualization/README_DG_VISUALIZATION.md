@@ -1,7 +1,7 @@
 # AEGIS — Differential Geometry Market Visualization
 
 ## Overview
-AEGIS (Adaptive Economic Geometry & Intelligence System) — Differential Geometry Visualization Module is a research-grade market structure analysis engine.
+AEGIS (Advanced Enterprise Geometric Intelligence System) — Differential Geometry Visualization Module is a research-grade market structure analysis engine.
 It applies Riemannian geometry, network theory, and Ollivier–Ricci curvature to financial markets to understand systemic risk, redundancy, and diversification beyond traditional correlation-based analysis.
 
 This module does NOT predict returns or promise performance.
