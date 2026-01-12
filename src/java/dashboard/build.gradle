@@ -1,0 +1,46 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.13'
+}
+
+group = 'com.aegis'
+version = '0.1.0'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+repositories {
+    mavenCentral()
+}
+
+javafx {
+    version = "17"
+    modules = ['javafx.controls', 'javafx.fxml', 'javafx.web']
+}
+
+dependencies {
+    // JavaFX for UI
+    // Spring Boot for backend (optional)
+    // implementation 'org.springframework.boot:spring-boot-starter-web:3.1.0'
+    
+    // JSON processing
+    implementation 'com.google.code.gson:gson:2.10.1'
+    
+    // Testing
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.3'
+}
+
+application {
+    mainClass = 'com.aegis.dashboard.Application'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+
+// Placeholder message
+println "Aegis Dashboard - Placeholder"
+println "TODO: Implement JavaFX risk dashboard"

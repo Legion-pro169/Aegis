@@ -1,0 +1,179 @@
+# ============================================================
+# AEGIS .gitignore
+# ============================================================
+
+# ------------------------------------------------------------
+# Python
+# ------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+
+# ------------------------------------------------------------
+# C++
+# ------------------------------------------------------------
+# Build directories
+build/
+cmake-build-*/
+out/
+
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+
+# ------------------------------------------------------------
+# Java
+# ------------------------------------------------------------
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+target/
+.gradle/
+gradle/
+gradlew
+gradlew.bat
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# ------------------------------------------------------------
+# IDE and Editors
+# ------------------------------------------------------------
+# VS Code
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ------------------------------------------------------------
+# Project Specific
+# ------------------------------------------------------------
+# Data files (too large for git)
+data/raw/
+data/cache/
+*.csv
+*.parquet
+*.h5
+*.hdf5
+
+# But keep sample data
+!data/sample/*.csv
+
+# Model checkpoints
+models/
+checkpoints/
+*.pt
+*.pth
+*.onnx
+*.pkl
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Output files
+output/
+results/
+*.html
+*.png
+*.jpg
+*.pdf
+
+# But keep documentation assets
+!docs/assets/*.png
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# API keys and secrets
+secrets/
+*.pem
+*.key
