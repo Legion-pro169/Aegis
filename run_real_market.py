@@ -1,12 +1,6 @@
-import os
 import numpy as np
 import pandas as pd
 import yfinance as yf
-
-# --- PATH HACK ---
-PROJECT_ROOT = os.path.dirname(os.path.abspath(__file__))
-SRC_PYTHON_PATH = os.path.join(PROJECT_ROOT, "src", "python")
-
 
 from dg_visualization import GeometricAnalyzer
 from dg_visualization.config import DGConfig
