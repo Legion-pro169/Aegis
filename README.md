@@ -217,9 +217,9 @@ MIT License — See [LICENSE](LICENSE) for details.
 
 ## Contact
 
-**Author:** [Your Name]  
-**Email:** [your.email@example.com]  
-**LinkedIn:** [Your LinkedIn]
+**Author:** Rhythm Garg  
+**Email:** F20221318@pilani.bits-pilani.ac.in 
+**LinkedIn:** [[My LinkedIn]](https://www.linkedin.com/in/rhythm-garg-77a130259/)
 
 ---
 
